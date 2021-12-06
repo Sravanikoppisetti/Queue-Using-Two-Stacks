@@ -30,7 +30,8 @@ class Queue {
 
     }
     
-    // Get the front element.
+     // Get the front element. // Time complexity: O(N). space complexity O(N)
+
     public int peek() {
         return stack1.peek();
     }
