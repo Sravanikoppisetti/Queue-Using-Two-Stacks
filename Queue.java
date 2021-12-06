@@ -37,11 +37,12 @@ class Queue {
     
     // Return whether the queue is empty.
     public boolean empty() {
+        return stack1.isEmpty() && stack2.isEmpty();
 
     }
 
     // Return the number of elements in queue.
-    public boolean size() {
+    public  boolean size() {
 
     }
     
