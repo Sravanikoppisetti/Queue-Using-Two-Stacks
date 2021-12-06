@@ -14,7 +14,8 @@ class Queue {
 
     }
 
-    // Push element x to the back of queue.
+    // Push element x to the back of queue. // Time Complexity: O(1),  space complexity: O(N)
+
     public void enqueue(int x) {
         while(!stack1.isEmpty())
         stack2.push(stack1.pop());
@@ -43,7 +44,7 @@ class Queue {
     public boolean size() {
 
     }
-    
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Queue queue = new Queue();
